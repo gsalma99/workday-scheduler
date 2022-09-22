@@ -22,14 +22,17 @@ function assessTimeBlocks() {
 }
 function saveNote() {
   var siblings = $(this).siblings();
+  console.log(siblings);
   var text = siblings[1].value;
   var timeBlockId = siblings[1].getAttribute("id");
+  console.log(timeBlockId);
   localStorage.setItem(timeBlockId, text);
 }
-for (let i = 0; i < localStorage.length; i++){
-    let key = localStorage.key(i);
-    let value = localStorage.getItem(key);
-    console.log(key, value);
+for (let i = 1; i <= 16; i++){
+    //let key = localStorage.key(i);
+    let value = localStorage.getItem(i);
+    console.log(i, value);
+    $("#" + i ).val(value);
   }
 $(".saveBtn").click(saveNote);
 
