@@ -20,3 +20,7 @@ THEN the saved events persist
 
 
 https://github.com/gsalma99/workday-scheduler
+https://gsalma99.github.io/workday-scheduler/
+
+
+<img width="1440" alt="Screen Shot 2022-09-22 at 10 43 29 PM" src="https://user-images.githubusercontent.com/110579963/191888650-6147eef4-cb14-4d90-a671-9a973642dfa1.png">
